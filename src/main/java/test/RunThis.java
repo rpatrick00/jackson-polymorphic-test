@@ -68,7 +68,7 @@ public class RunThis {
 
     System.out.println("Using Jackson to write " + JACKSON_OUTPUT_FILE);
     fos = new FileOutputStream(new File(JACKSON_OUTPUT_FILE), false);
-    writeJAXB(fos, company);
+    writeJackson(fos, company);
     fos.close();
   }
 
